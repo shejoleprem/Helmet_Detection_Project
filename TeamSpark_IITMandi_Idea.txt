@@ -1,0 +1,103 @@
+HELMET DETECTION BASED VEHICLE USING DEEP LEARNING 
+
+Code for Good : Hacking for a Better Tomorrow
+
+Team Name: Team Spark
+
+Theme: Human-Computer Interference
+
+Team Members: 
+Rituraj Sharma (Team leader)
+Prem Shejole
+Shalmali Bhalerao
+Sharayu Chakole
+
+
+ Problem Statement:
+The problem we're addressing is the alarming surge in motorcycle-related fatalities stemming 
+from non-compliance with helmet-wearing regulations in India. With approximately 150,000 deaths 
+annually, translating to 47 accidents and 18 fatalities per hour, along with a shocking 1,130 accidents 
+and 422 deaths daily, India grapples with a dire road safety challenge. Despite its expansive road 
+network, ensuring individual safety remains a formidable hurdle. Despite many rules, where the user 
+is made to pay a fine if found without a helmet, the user only wears it for the sake of avoiding such a 
+fine. 
+To tackle this issue, our proposed solution leverages cutting-edge technology to enforce continuous 
+helmet use during motorcycle journeys. We're developing a system that halts ignition until the rider 
+wears a helmet. This innovation employs Deep Learning, specifically YOLOv5, and CNN, and 
+integrates hardware for real-time rider monitoring using OpenCV and a microcontroller. We've set a 
+bounding-box accuracy threshold of 75% and are actively enhancing it. This technology significantly 
+bolsters road safety by promoting helmet compliance, offering real-time monitoring, and generating 
+insights for informed decisions on road safety enhancements.
+
+
+ Human-Computer Interface (HCI):
+The proposed system uses Deep Learning and image processing, specifically OpenCV, YOLOv5, and 
+CNN to monitor whether the user is wearing a helmet in real-time.
+It integrates hardware to control the ignition access by controlling the keyhole of the vehicle, making 
+it a clear example of how technology interfaces with human behavior for safety.
+The system's ability to provide real-time alerts and monitoring also relates to HCI, as it involves user 
+interaction with the vehicle's safety features.
+
+
+ Proposed Solution / Your Big Idea:
+To create a reliable system, a unit is developed where the user cannot start the ignition unless and 
+until he/she wears a helmet. So, the proposed system continuously monitors the user in real-time 
+and detects the user wearing a helmet, for which Deep Learning is used. Also, hardware is designed 
+which will control the access of the keyhole of the vehicle. The vehicle ignition cannot be started 
+unless and until the user wears a helmet and keeps the helmet on for the entire ride i.e. the keyhole 
+access won’t be granted unless the user is detected wearing a helmet. The existing systems do not 
+provide these features. This is an independent unit which can be attached to any two-wheeler. To 
+detect the user with a helmet, deep learning (CNN) is used where the dataset is trained using 
+YOLOv5. The dataset is annotated on Roboflow. The user tends to deceive the system by wearing a 
+helmet just for the sake of detection. However, the proposed system continuously monitors the user, 
+hence he/she has to wear the helmet throughout the journey.
+To prevent users from momentarily wearing a helmet for system activation, we've implemented a 
+progressive speed reduction mechanism. If a rider removes the helmet mid-journey, the system
+provides a warning alerting the user to wear a helmet and despite ignoring such warning, the system 
+gradually reduces the bike's speed until it comes to a complete stop, ensuring safety regulations are 
+followed throughout the ride and minimizing the risk of fatal head injuries. Moreover, the system 
+proves to be advantageous by restricting access to the keyhole of the vehicle. Society will largely 
+benefit as this system ensures their complete safety.
+Our innovation not only enhances road safety by encouraging helmet usage but also offers real-time 
+monitoring capabilities, enabling immediate interventions and improving rule enforcement by traffic 
+authorities. Additionally, it collects data on helmet usage patterns and vehicle movements, 
+facilitating data-driven decision-making for road safety improvements through an enhanced HumanComputer Interface. Once integrated with smart infrastructure, our solution can contribute to 
+solving broader traffic management challenges, making roads safer for all.
+
+
+
+ How does your innovation accelerate change with the power of Technology? :
+Our innovation leverages technology to transform road safety by addressing the critical issue of noncompliance with helmet regulations among motorcycle riders, creating a robust Human-Computer 
+Interface. By employing Deep Learning, specifically YOLOv5, and image processing technology 
+through OpenCV, we continuously monitor riders in real-time, ensuring helmet use before starting 
+their journeys.
+The innovation also incorporates a progressive speed reduction mechanism, a key aspect of HumanComputer Interaction. If the rider removes the helmet mid-journey, use technology to promote 
+sustained helmet use.
+Furthermore, our system offers real-time monitoring capabilities, which makes the system foolproof. The user won’t be able to continue the journey if he/she removes the helmet mid-journey. 
+Thus, a warning will be provided to wear the helmet. This provides additional safety through the 
+Human-Computer Interface.
+
+
+ How is your solution different/unique from other solutions in the market? :
+Our solution stands out from existing systems by combining Deep Learning and image processing 
+(CNN, YOLOv5, and OpenCV) to continuously monitor helmet usage in real-time, enhancing the 
+accuracy and reliability of helmet detection. This creates a more seamless Human-Computer 
+Interface.
+What sets us apart is our control over the keyhole of the vehicle. If the vehicle won’t start in the first 
+place if the user is without a helmet, the user won’t be able to deceive the system. Along with that, a 
+progressive speed reduction mechanism is implemented. If a rider removes the helmet mid-journey, 
+our system gradually decreases the bike's speed until it stops, ensuring sustained helmet usage 
+throughout the ride, a feature that actively involves the rider in a Human-Computer Interaction.
+As existing systems majorly implement transmitter-receiver systems, where the vehicle is the 
+receiver and the helmet is the transmitter. Unlike other systems that may be deceived by temporarily 
+placing a helmet near the bike just for the sake of establishing a connection, our solution focuses on 
+continuous monitoring, and the person along with the helmet is detected, making it much more 
+robust in ensuring compliance with helmet regulations through Human-Computer Interaction.
+Furthermore, our innovation collects data on helmet usage patterns and vehicle movements, 
+enabling data-driven decision-making for road safety improvements, a process significantly 
+influenced by Human-Computer Interaction. Additionally, once integrated with smart infrastructure, 
+our system can contribute to comprehensive traffic management solutions, making it a unique and 
+multifaceted approach to road safety with a strong Human-Computer Interface component.
+
+
+--THANK YOU--
